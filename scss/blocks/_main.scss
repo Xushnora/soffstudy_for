@@ -1,0 +1,139 @@
+.btns-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.tabs-link {
+  
+}
+
+.main__title {
+    margin-top: 30px;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main__food {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.food__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.food__list-item {
+    text-align: center;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 8px 28px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+
+.food__text {
+    margin-top: 10px;
+}
+.food__link {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.food__img {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+}
+
+
+
+// SAVATCHA 
+
+
+.buy {
+}
+.buy__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.buy__item {
+    width: 33%;
+    text-align: center;
+}
+.buy__text {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blue;
+}
+.buy__time {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.buy__input-box {
+    border: 1px solid blueviolet;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background-color: blue;
+    color: #fff;
+    position: relative;
+}
+.buy__imput {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+
+
+.buy__list-box {
+    list-style-type: none;
+}
+.buy__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid blueviolet;
+    border-radius: 17px;
+    width: 100%;
+    padding: 10px 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+.buy__imgs {
+    width: 100px;
+    height: 100px;
+}
+
+.buy-title {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+.summa {
+    color: blueviolet;
+}
+.miqdor {
+    color: blueviolet;
+}
+.buy__money {
+    font-size: 19px;
+    font-weight: bold;
+    color: blueviolet;
+}

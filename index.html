@@ -1,23 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
-  </head>
 
-  <body>
-    <script src="js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+<section id="main">
+  <ul class="nav nav-pills mb-3 btns-box" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active tabs-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+        type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+        <i class='bx bxs-grid-alt' style='color:#ffffff'></i>
+        Katalog</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link tabs-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+        <i class='bx bx-cart-add'></i>
+        Savatcha</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="container">
+        <h2 class="main__title">Katalog</h2>
+        <div class="main__food food">
+          <ul class="food__list">
+            <li class="food__list-item">
+              <img class="food__img" src="./images/1-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Cheeseburger</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/2-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Sandwich</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/3-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Fried chicken</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/4-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Pizza</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/5-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Donut</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/6-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Waffles</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/7-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Pancakes</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/8-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Pizza</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/9-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Popcorn</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/8-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Sandwich</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/8-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Taco</a>
+              </p>
+            </li>
+            <li class="food__list-item">
+              <img class="food__img" src="./images/10-img.png" alt="food">
+              <p class="food__text">
+                <a class="food__link" href="#">Bacon</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="container">
+        <h2 class="main__title">Savatcha</h2>
+        <div class="main__food buy">
+          <ul class="buy__list">
+            <li class="buy__item">
+              <p class="buy__text">Jami: 49 000 so'm</p>
+            </li>
+            <li class="buy__item">
+              <p class="buy__time">vaqt: 15:20</p>
+            </li>
+            <li class="buy__item">
+              <div class="buy__input-box">
+                <input class="buy__imput" type="checkbox">
+                <p class="buy__input-text">Tasdiqlash</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="buy__list-box">
+            <li class="buy__items">
+              <img class="buy__imgs" src="./images/1-img.png" alt="food">
+              <div class="title-box">
+                <h3 class="buy-title">Cheseburger</h3>
+                <p class="summa">Narxi: 18 000</p>
+                <p class="miqdor">Miqdori: 2</p>
+              </div>
+              <div class="buy__money">
+                <p class="money">Umumiy narxi: 36 000</p>
+              </div>
+            </li>
+            <li class="buy__items">
+              <img class="buy__imgs" src="./images/5-img.png" alt="food">
+              <div class="title-box">
+                <h3 class="buy-title">Waffles</h3>
+                <p class="summa">Narxi: 13 000</p>
+                <p class="miqdor">Miqdori: 2</p>
+              </div>
+              <div class="buy__money">
+                <p class="money">Umumiy narxi: 26 000</p>
+              </div>
+            </li>
+            <li class="buy__items">
+              <img class="buy__imgs" src="./images/6-img.png" alt="food">
+              <div class="title-box">
+                <h3 class="buy-title">Taco</h3>
+                <p class="summa">Narxi: 18 000</p>
+                <p class="miqdor">Miqdori: 2</p>
+              </div>
+              <div class="buy__money">
+                <p class="money">Umumiy narxi: 10 000</p>
+              </div>
+            </li>
+            <li class="buy__items">
+              <img class="buy__imgs" src="./images/8-img.png" alt="food">
+              <div class="title-box">
+                <h3 class="buy-title">Cecken</h3>
+                <p class="summa">Narxi: 8 000</p>
+                <p class="miqdor">Miqdori: 1</p>
+              </div>
+              <div class="buy__money">
+                <p class="money">Umumiy narxi: 18 000</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<body>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
